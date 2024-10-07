@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 60px ;
+}
+
+h1 {
+    text-align: center;
+    color: #ebe2e2;
+}
+
+h2 {
+    color: #faf3f3;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.experience-list li {
+    background: #e7f3fe;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5%;
+    color: #030504;
+}
+
+.contact-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #fdf7f7;
+    background-color: #1216f5; /* واتساب */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.contact-links a:nth-child(2) {
+    background-color: #1182ec; /* تليجرام */
+}
+
+.contact-links a:hover {
+    background-color: gold; /* لون للتفاعل */
+}
+
+.contact-links i {
+    margin-right: 5px;
+}
